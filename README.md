@@ -7,3 +7,9 @@ the passwords in it!!
 # Info
 Made by IDLieToyu#0974
 Version 0.3
+
+# Reqirements
+python 3+
+colorama
+== To install do pip install -r reqirements.txt
+
