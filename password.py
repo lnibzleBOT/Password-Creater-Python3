@@ -1,8 +1,10 @@
 import random
 import time
 import colorama
-from colorama import Fore, Back, Style
+from colorama import Fore, Back, Style, init
 import string
+
+init()
 
 def menu():
     print(Fore.RED + """
@@ -16,10 +18,12 @@ def menu():
                             By: ImBugle#1503
                             
     """)
-
 menu()
 
+print(Fore.RESET)
+
 numofpass = int(input(Fore.GREEN + "[>] " + Fore.WHITE + "(Threads are passwords) How many threads? : "))
+
 def numofpassTest():
     global numofpass
     numofpass += 1
